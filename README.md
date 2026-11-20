@@ -28,7 +28,7 @@ To load it in Adobe Express, serve `dist` over locally trusted HTTPS. Set `LOCAL
 
 Releases are submitted by hand. Nothing is uploaded to Adobe automatically.
 
-1. In a PR, bump `version` in both `package.json` and `manifest.json` to the same value, and merge it to `main`.
+1. In a PR, bump `version` in `package.json` and `manifest.json` and merge it to `main`. They must match, except that a dev build such as `0.1.0-dev.1` in `package.json` matches `0.1.0` in `manifest.json`, because Adobe takes a plain `x.y.z` version.
 2. The Release workflow builds the add-on and creates the GitHub release `v<version>` with `magic-hour-adobe-express-<version>.zip` attached. The zip is the contents of `dist/`, with `manifest.json` at its root.
 3. Download the zip from the release.
 4. In the Adobe Express developer distribution, upload the zip as the add-on package.
