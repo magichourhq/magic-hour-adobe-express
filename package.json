@@ -1,0 +1,29 @@
+{
+  "name": "magic-hour-adobe-express",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Magic Hour Video add-on for Adobe Express",
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "yarn@4.18.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magichourhq/magic-hour-adobe-express.git"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "serve": "node serve.mjs"
+  },
+  "dependencies": {
+    "@magichourhq/design-video": "^0.1.0"
+  },
+  "devDependencies": {
+    "@adobe/ccweb-add-on-sdk-types": "1.40.0",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}
