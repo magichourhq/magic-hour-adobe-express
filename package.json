@@ -1,6 +1,6 @@
 {
   "name": "magic-hour-adobe-express",
-  "version": "0.1.0-dev.1",
+  "version": "0.1.0",
   "private": true,
   "description": "Magic Hour Video add-on for Adobe Express",
   "type": "module",
