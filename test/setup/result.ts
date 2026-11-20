@@ -1,4 +1,4 @@
-import type { VideoResult } from "@magichourhq/design-video";
+import type { VideoResult } from "@magichourhq/editor-kit";
 export const result: VideoResult = {
   id: "existing-video",
   blob: new Blob(["video"], { type: "video/mp4" }),

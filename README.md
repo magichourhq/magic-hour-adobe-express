@@ -7,7 +7,7 @@ Magic Hour Video is an add-on for Adobe Express. Upload an image, or explicitly 
 - The accepted project ID is saved in Adobe's per-user client storage, so you can resume a generation without paying again.
 - Source elements in your design are never replaced or deleted.
 
-The panel comes from [`@magichourhq/design-video`](https://github.com/magichourhq/design-video). This repo adds the Adobe Express host and the manifest.
+The panel comes from [`@magichourhq/editor-kit`](https://github.com/magichourhq/editor-kit). This repo adds the Adobe Express host and the manifest.
 
 ## Local development
 

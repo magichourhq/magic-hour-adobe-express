@@ -17,7 +17,7 @@
     "serve": "node serve.mjs"
   },
   "dependencies": {
-    "@magichourhq/design-video": "^0.1.0"
+    "@magichourhq/editor-kit": "^0.1.0"
   },
   "devDependencies": {
     "@adobe/ccweb-add-on-sdk-types": "1.40.0",
