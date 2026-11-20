@@ -1,6 +1,6 @@
 import type sdk from "@adobe/ccweb-add-on-sdk-types/iframe-ui";
-import type { EditorHost } from "@magichourhq/editor-kit";
-export function adobeHost(api: typeof sdk): EditorHost {
+import type { DesignVideo } from "@magichourhq/editor-kit";
+export function adobeHost(api: typeof sdk): DesignVideo.EditorHost {
   const key = "magic-hour-video-project-v1";
   return {
     name: "Adobe Express",

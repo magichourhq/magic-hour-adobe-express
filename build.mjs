@@ -15,5 +15,5 @@ await build({
 await copyFile("manifest.json", "dist/manifest.json");
 await writeFile(
   "dist/index.html",
-  `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Magic Hour for Adobe Express</title><link rel="stylesheet" href="app.css"></head><body><div id="root"></div><script type="module" src="app.js"></script></body></html>`
+  `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Magic Hour for Adobe Express</title></head><body><div id="root"></div><script type="module" src="app.js"></script></body></html>`
 );
