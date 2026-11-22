@@ -1,7 +1,7 @@
 {
   "testId": "magic-hour-video-development",
   "name": "Magic Hour Video",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifestVersion": 2,
   "requirements": { "apps": [{ "name": "Express", "apiVersion": 1 }], "supportsTouch": false },
   "entryPoints": [
