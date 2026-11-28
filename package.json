@@ -1,6 +1,6 @@
 {
   "name": "magic-hour-adobe-express",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "description": "Magic Hour Video add-on for Adobe Express",
   "type": "module",
@@ -17,7 +17,7 @@
     "serve": "node serve.mjs"
   },
   "dependencies": {
-    "@magichourhq/editor-kit": "^0.1.4"
+    "@magichourhq/editor-kit": "^0.1.5"
   },
   "devDependencies": {
     "@adobe/ccweb-add-on-sdk-types": "1.40.0",
